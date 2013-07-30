@@ -1,9 +1,9 @@
 @import url("global/global.less");
 @import url("cognos/banner.less");
 
-td.searchIconContainer, td.homeContainer{
+/*td.searchIconContainer, td.homeContainer, td.appOptionsContainer{
   display:none;
-}
+}    */
 
 
 
@@ -74,7 +74,7 @@ textarea {
 
 /* Welcome page when rendered in full */
 .welcomePageFull {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   margin: 0px;
   overflow: auto;
   padding-left: 10px;
@@ -373,7 +373,7 @@ textarea {
   width: 100%;
 }
 .welcomeToolContainerOver {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: 1px solid #336699;
   cursor: pointer;
   padding-bottom: 2px;
@@ -443,7 +443,7 @@ textarea {
 
 /* Portlet edit buttons */
 .boxButtonNormal {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #ffffff 1px solid;
 }
 .boxButtonOver {
@@ -511,14 +511,14 @@ textarea {
   font-weight: normal;
 }
 .commandButtonOver {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #999999 1px solid;
   cursor: pointer;
   
   font-weight: normal;
 }
 .commandButtonDown {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #999999 1px solid;
   cursor: pointer;
   
@@ -598,7 +598,7 @@ td#btnAnchorIE a {
   padding-left: 5px;
 }
 .cmdButtonOver {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #999999 1px solid;
   color: #000000;
   cursor: pointer;
@@ -674,7 +674,7 @@ td#btnAnchorIE a {
   top: 5px;
 }
 .dialogButtonBar {
-  background: @neoglex_bg;
+  background: @neoflex_bg;
   border: #cccccc 1px solid;
   height: 40px;
   padding: 3px;
@@ -758,7 +758,7 @@ td#btnAnchorIE a {
   
 }
 .mainHeader3 {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   padding-top: 5px;
 }
 .ccOptionsDivider {
@@ -805,12 +805,12 @@ td#btnAnchorIE a {
   padding: 3px;
 }
 .toolbarImageOver {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   cursor: pointer;
   padding: 3px;
 }
 .toolbarImagePressed {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #666699 1px solid;
   cursor: pointer;
   padding: 2px;
@@ -834,7 +834,7 @@ td#btnAnchorIE a {
   padding-top: 3px;
 }
 .toolbarFlyoutOver {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   cursor: pointer;
   padding-bottom: 3px;
   padding-left: 3px;
@@ -907,9 +907,7 @@ td#btnAnchorIE a {
   text-align: center;
   font-weight: normal;
 }
-.tabSelected {
-  font-size:2em;
-}
+
 .tabSpacer {
   width: 2px;
 }
@@ -933,7 +931,7 @@ td#btnAnchorIE a {
   height: 100%;
 }
 .tabMenuButtonNormal {
-  border: @neoglex_bg 1px solid;
+  border: @neoflex_bg 1px solid;
   cursor: pointer;
   padding: 1px;
 }
@@ -974,6 +972,13 @@ td#btnAnchorIE a {
 .cctable {
   .table();
 }
+
+
+
+.cctable td.tableText table td{
+  padding:3px;
+}
+
 .rowDividerLine {
   border-top: #e7e7e7 1px solid;
 }
@@ -1078,7 +1083,7 @@ td#btnAnchorIE a {
   width: 100%;
 }
 .menuItemOver {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   color: #134679;
   cursor: pointer;
   height: 20px;
@@ -1191,7 +1196,7 @@ td#btnAnchorIE a {
   width: auto;
 }
 .portlet-form-button:hover {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #999999 1px solid;
 }
 .portlet-icon-label {
@@ -1239,7 +1244,7 @@ td#btnAnchorIE a {
   color: #134679;
 }
 .portlet-menu-item-selected {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   color: #134679;
 }
 .portlet-menu-item-hover {
@@ -1247,7 +1252,7 @@ td#btnAnchorIE a {
   color: #134679;
 }
 .portlet-menu-item-hover-selected {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   color: #134679;
 }
 .portlet-menu-cascade-item {
@@ -1292,7 +1297,7 @@ td#btnAnchorIE a {
   color: @link_normal;
 }
 .cognos-section-background {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
 }
 
 /* --- Colour Picker control --- */
@@ -1404,12 +1409,12 @@ td#btnAnchorIE a {
   margin-top: 0px;
 }
 .emailItem_active {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #191970 2px solid;
   padding: 0px;
 }
 .emailItem_hover {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #191970 2px solid;
   padding: 0px;
 }
@@ -1488,7 +1493,7 @@ td#btnAnchorIE a {
   text-decoration: underline;
 }
 .rssRightPanel {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
   border: #ffffff 2px solid;
   padding: 5px;
 }
@@ -1513,7 +1518,7 @@ td#btnAnchorIE a {
   width: 145px;
 }
 .sectionBackground {
-  background-color: @neoglex_bg;
+  background-color: @neoflex_bg;
 }
 .indexTreeCategorySelected {
   background-color: #000000;
