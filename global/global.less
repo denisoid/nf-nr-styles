@@ -1,11 +1,14 @@
 @import url("reset.less");
 @import url("vars.less");
+@import url("funcs.less");
 
 
 html, body{
   font-family:Verdana;
   font-size:12px;
   line-height:160%;
+  background:#fff;
+  color:@text_color;
 }
 
 
@@ -16,4 +19,9 @@ a, a:visited{
 
 a:active, a:hover{
   color:@link_active;
+}
+
+
+iframe{
+  outline: 0;
 }
