@@ -1,17 +1,20 @@
 @import url("global/global.less");
 @import url("apex/ui-reset.less");
 
+@import url("apex/standart.less");
+
 
 #tabs, #header, #footer{
   display:none;
 }
 
 
-.button, .button span {
+button, button span:first-child {
   background-image: none !important;
+  .nopadding();
 }
 
 
-.button{
-  border:1px solid @gray;
+button{
+  .nf_button();
 }

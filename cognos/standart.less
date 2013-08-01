@@ -1,0 +1,1525 @@
+
+
+.formLabel {
+  color: #666699;
+
+  font-weight: bold;
+}
+.formLink {
+
+}
+.formText {
+  color: #000000;
+
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+.hiddenEntryIcon {
+  -moz-opacity: 0.4;
+  filter: alpha(opacity=40);
+  opacity: 0.4;
+}
+.inactiveText {
+  color: @inactive_color;
+}
+.inactiveHRef {
+  color: @inactive_color;
+  text-decoration: underline;
+}
+
+.text {
+  color: @link_normal;
+}
+
+.legalText {
+  color: #999999;
+
+  font-weight: normal;
+}
+
+/* --- Welcome screen --- */
+
+/* Welcome page when rendered in full */
+.welcomePageFull {
+  background-color: @neoflex_bg;
+  margin: 0px;
+  overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 25px;
+}
+#welcomePageBorder {
+  border: 1px solid #666666;
+}
+
+/* Welcome page when rendered in lite mode */
+.welcomeLite {
+  background-color: #ffffff;
+}
+
+/* Welcome favorites flyout */
+.welcomeFavorites {
+  width: 18em;
+  border: 0px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  padding-top: .3em;
+}
+.favoritesBorder {
+  border: 1px solid #ffffff;
+}
+
+/* Common Welcome favorites flyout styles */
+.favoritesTopBorderRow {
+
+}
+.favoritesBottomBorderRow {
+
+}
+.favoritesBottomBorderImage, .favoritesTopBorderImage {
+  background-repeat: repeat-x;
+}
+.favoritesBottomBorderImage, .favoritesBottomInsideImage, .favoritesTopInsideImage, .favoritesTopBorderImage {
+  background-color: #ffffff;
+}
+.favoritesTopBorderImageRightInside, .favoritesBottomBorderImageRightInside {
+  width: 5px;
+}
+.favoritesTopBorderImageLeftInside, .favoritesBottomBorderImageLeftInside {
+  width: 3px;
+}
+.favoritesTopInsideBorderImageLeft, .favoritesTopBorderImageLeft, .favoritesLeftBorderContainerImage, .favoritesLeftBorderContainerImage, .favoritesBottomInsideBorderImageLeft, .favoritesBottomBorderImageLeft, .favoritesTopBorderImageRight, .favoritesTopInsideBorderImageRight, .favoritesRightBorderContainerImage, .favoritesBottomInsideBorderImageRight, .favoritesBottomBorderImageRight {
+  width: 7px;
+}
+.favoritesTopBorderImageLeft, .favoritesTopBorderImageLeftInside, .favoritesTopBorderImage, .favoritesTopBorderImageRightInside, .favoritesTopBorderImageRight {
+  height: 5px;
+}
+.favoritesBottomBorderImageLeft, .favoritesBottomBorderImageLeftInside, .favoritesBottomBorderImage, .favoritesBottomBorderImageRightInside, .favoritesBottomBorderImageRight {
+  height: 6px;
+}
+.favoritesTopBorderImageLeft, .favoritesTopBorderImageLeftInside, .favoritesTopBorderImageRightInside, .favoritesTopBorderImageRight, .favoritesTopInsideBorderImageLeft, .favoritesTopInsideBorderImageRight, .favoritesBottomInsideBorderImageLeft, .favoritesBottomInsideBorderImageRight, .favoritesBottomBorderImageLeft, .favoritesBottomBorderImageLeftInside, .favoritesBottomBorderImageRightInside, .favoritesBottomBorderImageRight {
+  background-repeat: no-repeat;
+}
+
+/* Welcome favorites flyout image gallery */
+
+/* First imageset */
+.favoritesTopBorderImageLeft {
+  background-image: url(../portal/images/favorites_popup_t_l.gif);
+}
+.favoritesTopBorderImageLeftInside {
+  background-image: url(../portal/images/favorites_popup_t_li.gif);
+}
+.favoritesTopBorderImage {
+  background-image: url(../portal/images/favorites_popup_t_m.gif);
+}
+.favoritesTopBorderImageRightInside {
+  background-image: url(../portal/images/favorites_popup_t_ri.gif);
+}
+.favoritesTopBorderImageRight {
+  background-image: url(../portal/images/favorites_popup_t_r.gif);
+}
+.favoritesTopBorderImage {
+  background-position: center center;
+}
+.favoritesTopBorderImageLeft, .favoritesTopBorderImageLeftInside, .favoritesTopBorderImageRightInside, .favoritesTopBorderImageRight {
+  background-position: bottom center;
+}
+
+/* Second imageset */
+.favoritesTopInsideBorderImageLeft {
+  background-image: url(../portal/images/favorites_popup_ti_l.gif);
+  background-position: bottom right;
+}
+.favoritesTopInsideImage {
+  background-image: url(../portal/images/favorites_popup_ti_m.gif);
+}
+.favoritesTopInsideBorderImageRight {
+  background-image: url(../portal/images/favorites_popup_ti_r.gif);
+  background-position: bottom left;
+}
+.favoritesTopInsideBorderImageLeft, .favoritesTopInsideBorderImageRight {
+  height: 21px;
+}
+
+/* Third imageset */
+.favoritesLeftBorderContainerImage {
+  background-image: url(../portal/images/favorites_popup_m_l.gif);
+  background-position: center right;
+}
+.favoritesRightBorderContainerImage {
+  background-image: url(../portal/images/favorites_popup_m_r.gif);
+  background-position: center left;
+}
+
+/* Fourth imageset */
+.favoritesBottomInsideBorderImageLeft {
+  background-image: url(../portal/images/favorites_popup_bi_l.gif);
+}
+.favoritesBottomInsideImage {
+  background-image: url(../portal/images/favorites_popup_bi_m.gif);
+}
+.favoritesBottomInsideBorderImageRight {
+  background-image: url(../portal/images/favorites_popup_bi_r.gif);
+}
+.favoritesBottomInsideBorderImageLeft, .favoritesBottomInsideBorderImageRight {
+  height: 36px;
+}
+
+/* Fifth imageset */
+.favoritesBottomBorderImageLeft {
+  background-image: url(../portal/images/favorites_popup_b_l.gif);
+}
+.favoritesBottomBorderImageLeftInside {
+  background-image: url(../portal/images/favorites_popup_b_li.gif);
+}
+.favoritesBottomBorderImage {
+  background-image: url(../portal/images/favorites_popup_b_m.gif);
+}
+.favoritesBottomBorderImageRightInside {
+  background-image: url(../portal/images/favorites_popup_b_ri.gif);
+}
+.favoritesBottomBorderImageRight {
+  background-image: url(../portal/images/favorites_popup_b_r.gif);
+}
+.favoritesBottomBorderImageLeft, .favoritesBottomBorderImageLeftInside, .favoritesBottomBorderImage, .favoritesBottomBorderImageRightInside, .favoritesBottomBorderImageRight {
+  background-position: top center;
+}
+.favoritesTopBorderImage, .favoritesTopInsideImage, .favoritesBottomInsideImage, .favoritesBottomBorderImage {
+  width: 100%;
+}
+.favoritesLeftBorderContainerImage, .favoritesRightBorderContainerImage {
+  height: 100%;
+  background-repeat: repeat-y;
+}
+.favoritesInnerContainer {
+  border-color: #aab5c1;
+  padding: .13em;
+}
+.favoritesTopContainerText {
+  color: @text_color;
+  padding-left: .6em;
+  font-weight: bold;
+}
+.favoritesEntry, .favoritesEntryOver {
+  padding-left: 1.2em;
+  padding-top: .2em;
+}
+.favoritesEntry {
+  text-decoration: none;
+}
+.favoritesEntryOver {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.favoritesTopContainer {
+  z-index: 2;
+  padding-bottom: .3em;
+}
+.favoritesBottomContainer, .favoritesTopContainer {
+  padding-left: .3em;
+}
+.favoritesScrollContainer {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 6.5em;
+  background-color: #ffffff;
+  border: 1px solid #aab5c1;
+}
+.favoritesAlignText, .favoritesItemOver, .favoritesItemNormal {
+  vertical-align: middle;
+}
+.favoritesTopContainerText, .favoritesItemOver, .favoritesItemNormal {
+
+  font-family: Tahoma;
+}
+.favoritesItemOver, .favoritesItemNormal {
+  color: #055eba;
+  padding-left: .3em;
+}
+.favoritesItemOver {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.favoritesItemNormal {
+  text-decoration: none;
+}
+
+/* End of Welcome favorites flyout */
+
+/* header options */
+.welcomeUserNameContainer {
+  color: #ffffff;
+
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  white-space: nowrap;
+}
+.welcomeAuthentication {
+
+  padding-right: 30px;
+  padding-top: 10px;
+  white-space: nowrap;
+}
+.welcomeMiddlePanel {
+  background-color: #ffffff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* custom tools */
+.welcomeToolContainer {
+  margin-left: 12px;
+  padding-bottom: 12px;
+}
+.welcomeToolDescription {
+  color: @text_color;
+
+}
+.welcomeToolHeading {
+  color: @text_color;
+
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+/* tool group (box) */
+.welcomeToolGroupContainer {
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+.welcomeToolGroupHeaderContainer {
+  background-image: url(../branding/tool_group_header.gif);
+  color: #ffffff;
+
+  font-weight: bold;
+  height: 32px;
+  padding-left: 4px;
+  width: 100%;
+}
+.welcomeToolGroupHeaderLeft {
+  background-image: url(../branding/tool_group_header_left.gif);
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 8px;
+}
+.welcomeToolGroupHeaderRight {
+  background-image: url(../branding/tool_group_header_right.gif);
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 8px;
+}
+.welcomeToolGroupEdge {
+  background-image: url(../branding/tool_group_container_edge.gif);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 1px;
+}
+.welcomeToolGroupBody {
+  background-image: url(../branding/welcome_group_background.gif);
+  background-repeat: no-repeat;
+  height: 100px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+/* "active" tool options */
+.welcomeToolContainerNormal {
+  cursor: pointer;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  width: 100%;
+}
+.welcomeToolContainerOver {
+  background-color: @neoflex_bg;
+  border: 1px solid #336699;
+  cursor: pointer;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  width: 100%;
+}
+.welcomeToolHeadingContainer {
+  color: @text_color;
+
+  font-weight: bold;
+  padding-left: 10px;
+  width: 100%;
+}
+.welcomeHideShowContainer {
+  margin-bottom: 15px;
+  margin-left: 21px;
+}
+.welcomeHideShowText {
+  color: @text_color;
+
+  padding-left: 5px;
+}
+.welcomeHideShowOver {
+  border: 1px solid #336699;
+  padding-right: 5px;
+}
+.welcomeHideShowNormal {
+}
+.welcomeQTContainer {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  margin-bottom: 15px;
+  margin-right: 25px;
+  padding: 1px;
+}
+.welcomeQTButton {
+  background-color: #000000;
+  background-image: url(../branding/welcome_qt_background.gif);
+  background-repeat: repeat-x;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-weight: bold;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+/* footer */
+.welcomeLegalNotice {
+  color: #ffffff;
+
+}
+.welcomeSlogan {
+  color: #ffffff;
+
+  white-space: nowrap;
+}
+
+/* --- Custom pages / portlets --- */
+.boxborder {
+  border: #666699 1px solid;
+}
+.boxButtonBar {
+}
+
+/* Portlet edit buttons */
+.boxButtonNormal {
+  background-color: @neoflex_bg;
+  border: #ffffff 1px solid;
+}
+.boxButtonOver {
+  background-color: #ffffff;
+  border: #ffffff 1px solid;
+  padding: 0px;
+}
+
+/* Portlet Header */
+.boxHeaderBackground {
+  background-image: url(../portal/images/portal_v3_portlet_title_bar_1px.gif);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+.boxBody table {
+
+}
+
+.boxSpacing {
+  padding-right: 5px;
+}
+.boxHeader {
+  color: #ffffff;
+
+  font-weight: bold;
+  padding: 2px 2px 2px 4px;
+}
+
+/* Page editor */
+.defaultTitleText {
+  color: #000000;
+
+}
+.defaultInstructionsText {
+  color: #000000;
+
+}
+
+/* --- Command / Action buttons --- */
+
+/* image buttons */
+.button {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #cccccc;
+}
+.button_hover {
+  background-color: #bec8dc;
+  border: #99aacc 1px solid;
+}
+.button_pressed {
+  background-color: #bec8dc;
+  border: #336699 1px solid;
+}
+
+/* Command buttons (usually appear in dialog footers) */
+.commandButton {
+  background-color: #ffffff;
+  border: #999999 1px solid;
+
+  font-weight: normal;
+}
+.commandButtonOver {
+  background-color: @neoflex_bg;
+  border: #999999 1px solid;
+  cursor: pointer;
+
+  font-weight: normal;
+}
+.commandButtonDown {
+  background-color: @neoflex_bg;
+  border: #999999 1px solid;
+  cursor: pointer;
+
+  font-weight: normal;
+}
+.commandButtonInactive {
+  background-color: #ffffff;
+  border: #999999 1px solid;
+  color: #999999;
+  cursor: default;
+
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+  font-weight: normal;
+}
+.commandButtonActive {
+  color: #000000;
+  cursor: pointer;
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+}
+td#btnAnchor a /* none ie browsers */ {
+  color: #000000;
+  text-decoration: none;
+}
+td#btnAnchorWide a /* none ie browsers */ {
+  color: #000000;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+td#btnAnchorIE a {
+  color: #000000;
+  height: 100%;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  text-decoration: none;
+  width: 100%;
+}
+.genericAnchorButton /* none ie browsers */ {
+  color: #000000;
+  text-decoration: none;
+}
+.genericAnchorWideButton /* none ie browsers */ {
+  color: #000000;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+.ieAnchorButton {
+  color: #000000;
+  height: 100%;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* Standard HTML command buttons */
+.cmdButton {
+  background-color: #ffffff;
+  border: #999999 1px solid;
+  color: #000000;
+  cursor: pointer;
+
+  height: 1.8em;
+  margin-right: 0.7em;
+  font-weight: normal;
+  min-width: 4.9em;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.cmdButtonOver {
+  background-color: @neoflex_bg;
+  border: #999999 1px solid;
+  color: #000000;
+  cursor: pointer;
+
+  height: 1.8em;
+  margin-right: 0.7em;
+  font-weight: normal;
+}
+.cmdButtonInactive {
+  background-color: #ffffff;
+  border: #cccccc 1px solid;
+  color: #cccccc;
+
+  height: 1.8em;
+  margin-right: 0.7em;
+  font-weight: normal;
+}
+
+/* --- General Dialogs --- */
+.dialogBody /* add any dialog body - specific styles here */ {
+}
+.dialogHeader {
+  background-color: #9999be;
+  border: #666699 1px solid;
+  height: 24px;
+  background-image: url(../portal/images/portal_v3_portlet_title_bar_1px.gif);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+.dialogHeaderText /* Introductory dialog text */ {
+  color: #666699;
+
+  font-weight: normal;
+}
+.dialogHintText /* generic hint text */ {
+  color: #666699;
+
+  font-weight: normal;
+}
+.dialogHeaderTitle {
+  color: #ffffff;
+
+  font-weight: bold;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+.dialogClose /* close button */ {
+  margin: 1px 1px 1px 1px;
+}
+.dialogCloseOver {
+  border: #ffffff 1px solid;
+}
+.dialogDivider /* horizontal dividers e.g. actions dialog */ {
+  background-color: #cccccc;
+}
+
+/* scroll region in dialogs that support scrolling */
+.dialogScrollPane /* IE browser */ {
+  height: 100%;
+  overflow: auto;
+  padding-top: 10px;
+  width: 100%;
+}
+.dialogScrollPaneSafari /* Safari */ {
+  height: 100%;
+  padding-top: 10px;
+}
+.dialogScrollPaneOther /* Mozilla and other browsers */ {
+  height: 80%;
+  overflow: auto;
+  padding-top: 10px;
+  position: relative;
+  top: 5px;
+}
+.dialogButtonBar {
+  background: @neoflex_bg;
+  border: #cccccc 1px solid;
+  height: 40px;
+  padding: 3px;
+}
+.dialogSubHeaderAnchorContainer {
+
+  padding-right: 10px;
+}
+.dialogSubHeaderAnchorContainer a {
+  color: @link_normal;
+}
+.dialogSearchPathDisplayPanel {
+  border: #666699 1px solid;
+  height: 50px;
+  margin-right: 5px;
+  overflow: auto;
+  padding: 5px;
+  word-wrap: break-word;
+}
+.dialogDefaultActionDisplayPanel {
+  border: #336699 1px solid;
+  height: 50px;
+  margin-right: 5px;
+  overflow: auto;
+  padding: 5px;
+  word-wrap: break-word;
+}
+.dialogHeaderLink {
+
+  padding-right: 10px;
+  font-weight: normal;
+}
+.dialogHeaderLinkcolor {
+  color: #ffffff;
+}
+
+/* Modal dialogs */
+.body_dialog_modal, #pgr {
+  background-color: #ffffff;
+}
+.dialogWindowPopup /* pop up dialog */ {
+  background-color: #ffffff;
+  border-bottom: #ffffff 1px solid;
+  border-left: #cccccc 1px solid;
+  border-right: #cccccc 1px solid;
+  border-top: #eeecf3 1px solid;
+  padding-top: 10px;
+  z-index: 50;
+}
+
+/* misc. dialog styles */
+.dialogTreePane, .sortSelect {
+  border: #999999 1px solid;
+  height: 380px;
+  overflow: auto;
+  padding: 5px;
+  width: 300px;
+}
+.dialogNavigationIndicator {
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+.resequence /* Resequence dialog */ {
+  width: 550px;
+}
+.pTextarea {
+  height: 80px;
+  width: 400px;
+}
+.pInput {
+  width: 400px;
+}
+.smallInput {
+  width: 100px;
+}
+.messageText {
+  color: #000000;
+
+}
+.mainHeader3 {
+  background-color: @neoflex_bg;
+  padding-top: 5px;
+}
+.ccOptionsDivider {
+  border-right: #000000 1px solid;
+
+  width: 1px;
+}
+.ccOptions {
+  color: @link_normal;
+
+  text-decoration: underline;
+  font-weight: normal;
+}
+.singlePageName {
+  color: #003399;
+
+  font-weight: bold;
+}
+.singlePageDisplayHeader {
+  height: 22px;
+}
+
+/* CC detail view */
+.objectName {
+  color: #000000;
+
+}
+.objectOptions {
+  color: #000000;
+
+}
+.horizSpaceDetailView {
+  padding-bottom: 20px;
+}
+.objectNoneFound {
+  color: #666699;
+
+  padding-top: 50px;
+  text-align: center;
+}
+.toolbarImageNormal {
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 3px;
+}
+.toolbarImageOver {
+  background-color: @neoflex_bg;
+  cursor: pointer;
+  padding: 3px;
+}
+.toolbarImagePressed {
+  background-color: @neoflex_bg;
+  border: #666699 1px solid;
+  cursor: pointer;
+  padding: 2px;
+}
+.toolbarImageOverPressed {
+  background-color: #9999be;
+  border: #666699 1px solid;
+  cursor: pointer;
+  padding: 2px;
+}
+.toolbarImageUnavailable {
+  background-color: #ffffff;
+  padding: 3px;
+}
+.toolbarFlyoutNormal {
+  background-color: #ffffff;
+  cursor: pointer;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+.toolbarFlyoutOver {
+  background-color: @neoflex_bg;
+  cursor: pointer;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+.toolbarDividerContainer {
+  padding-left: 2px;
+}
+.toolbarDivider {
+  background-image: url(../shared/images/toolbar_divider.gif);
+  background-repeat: no-repeat;
+  width: 1px;
+}
+.toolbarImageDefaultCursor {
+  cursor: default;
+}
+
+/* --- Tab control --- */
+
+/* Static tab control */
+.tabBorder {
+  background-color: #999999;
+}
+.tabLabel {
+  color: #000000;
+
+  font-weight: bold;
+}
+.tabLink {
+  color: #000000;
+
+  font-weight: normal;
+}
+
+/* Dynamic tab control */
+.tabScrollButton {
+  background-color: #e3e9f3;
+  border: #999999 1px solid;
+  cursor: pointer;
+  margin-left: 1px;
+  padding: 1px;
+}
+.tabScrollButtonOver {
+  background-color: #ffffff;
+  border: #999999 1px solid;
+  cursor: pointer;
+  margin-left: 1px;
+  padding: 1px;
+}
+.tabScrollButtonDisabled {
+  background-color: #e3e9f3;
+  border: #cccccc 1px solid;
+  cursor: default;
+  margin-left: 1px;
+  padding: 1px;
+}
+.tabBarContainer {
+  background-color: @neoflex_bg;
+  height: 20px;
+  width: 100%;
+}
+
+
+
+.tabAnchor {
+  .nf_button();
+}
+
+
+.tabNormal {
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.tabSpacer {
+  width: 2px;
+}
+.tabTail {
+
+  height: 20px;
+  margin-right: 2px;
+  width: 100%;
+}
+
+.tabNormalEdgeBorder {
+
+}
+
+.tabNormalEdgeBorder .tabLeftNormal {
+  border-bottom: none;
+  height: 100%;
+}
+.tabNormalEdgeBorder .tabRightNormal {
+  border-bottom: none;
+  height: 100%;
+}
+.tabMenuButtonNormal {
+  border: @neoflex_bg 1px solid;
+  cursor: pointer;
+  padding: 1px;
+}
+.tabMenuButtonOver {
+  border: #666699 1px solid;
+  cursor: pointer;
+  padding: 1px;
+}
+
+/* --- Path control --- */
+.pathLeafNode {
+  color: @text_color;
+}
+
+.pathSeparator {
+  color: @text_color;
+  content:"»" !important;
+}
+
+.pathLink {
+  color: @link_normal;
+}
+
+/* --- List control --- */
+.maskLinkText {
+  color: @text_color;
+}
+.rowSelectHighlight {
+  background-color: #e3e9f3;
+}
+.rowSelectOver {
+  background-color: #cccccc;
+}
+.pager_text {
+  color: @text_color;
+
+}
+.cctable {
+  .table();
+}
+
+
+
+.cctable td.tableText table td{
+  padding:3px;
+}
+
+.rowDividerLine {
+  border-top: #e7e7e7 1px solid;
+}
+.rowDivider {
+  border-right: #cccccc 1px solid;
+
+  width: 1px;
+}
+.rowHighlight {
+  background-color: #f1f1f1;
+}
+.tableHeader {
+  background-color: #e7e7e7;
+}
+.tableFooter {
+  background-color: #e7e7e7;
+  border-top: #999999 1px solid;
+
+  padding: 4px;
+}
+.tableHeaderDivider {
+  background-color: #9c9c9c;
+}
+
+.tableSortTitle {
+  color: @link_normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+.tabletext {
+  color: @text_color;
+
+}
+.tableItemCount {
+  color: @text_color;
+
+}
+.inactiveTableText {
+  color: @inactive_color;
+
+}
+
+/* --- Goto page scrollable region --- */
+.gotoSelectRegion {
+  border-right: #999999 1px solid;
+  height: 165px;
+  overflow: auto;
+  padding: 5px;
+  width: 100%;
+}
+
+/* --- Misc. --- */
+.countSummary {
+  background-color: #ffffcc;
+  border-bottom: #9c9c9c 1px solid;
+  border-left: #000000 1px solid;
+  border-right: #9c9c9c 1px solid;
+  border-top: #000000 1px solid;
+}
+.mruPackageList {
+  border: 3px double #999999;
+  height: 74px;
+  overflow: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 350px;
+}
+
+/* --- DHTML --- */
+
+/* flyouts */
+.hidden {
+  display: none;
+  height: 1px;
+  position: absolute;
+  width: 1px;
+  z-index: 2;
+}
+.visible {
+  background-color: #ffffff;
+  border: #e3e9f3 2px outset;
+  display: block;
+  height: 1px;
+  position: absolute;
+  width: 1px;
+  z-index: 2;
+}
+.flyOutMenu {
+  .table();
+
+  font-weight: normal;
+  overflow: auto;
+  overflow-x: hidden;
+  font-weight: normal;
+}
+.flyOutMenuSeparator {
+  border-bottom: #c0c0c0 1px solid;
+
+  height: 1px;
+  margin-bottom: 3px;
+  margin-top: 1px;
+  width: 100%;
+}
+.menuItemOver {
+  background-color: @neoflex_bg;
+  color: #134679;
+  cursor: pointer;
+  height: 20px;
+  text-decoration: underline;
+  font-weight: normal;
+}
+.menuItemNormal {
+  background-color: #ffffff;
+  color: #134679;
+  cursor: pointer;
+  height: 20px;
+  text-decoration: underline;
+  font-weight: normal;
+}
+.menuItemIcon {
+  padding-left: 6px;
+  padding-right: 8px;
+}
+
+/* --- WSRP-specific --- */
+.portlet-font {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-font-dim {
+  color: #999999;
+  font-weight: normal;
+}
+.portlet-section-header {
+  background-color: #e7e7e7;
+  color: #666699;
+  font-weight: bold;
+}
+.portlet-table-header {
+  background-color: #e7e7e7;
+  color: #666699;
+  font-weight: bold;
+}
+.portlet-section-body {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-table-body {
+  color: #000000;
+}
+.portlet-section-alternate {
+  background-color: #f3f3f3;
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-table-alternate {
+  background-color: #f3f3f3;
+  color: #000000;
+}
+.portlet-section-selected {
+  background-color: #666699;
+  font-weight: normal;
+}
+.portlet-table-selected {
+  background-color: #666699;
+  font-weight: normal;
+}
+.portlet-section-subheader {
+  background-color: #c6c6d7;
+  font-weight: normal;
+}
+.portlet-table-subheader {
+  background-color: #c6c6d7;
+}
+.portlet-section-footer {
+  background-color: #c6c6d7;
+  font-weight: normal;
+}
+.portlet-table-footer {
+  background-color: #c6c6d7;
+}
+.portlet-section-text {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-table-text {
+  color: #000000;
+}
+.portlet-form-input-field {
+
+  font-weight: normal;
+}
+.portlet-form-label {
+  color: #666699;
+  font-weight: bold;
+}
+.portlet-form-button {
+  background-color: #ffffff;
+  border: #999999 1px solid;
+  color: #000000;
+  cursor: pointer;
+
+  height: 24px;
+  overflow-x: visible;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  width: 70px;
+  font-weight: normal;
+}
+.portlet-form-button[type] {
+  height: auto;
+  min-height: 24px;
+  width: auto;
+}
+.portlet-form-button:hover {
+  background-color: @neoflex_bg;
+  border: #999999 1px solid;
+}
+.portlet-icon-label {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-dlg-icon-label {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-form-field-label {
+  color: #666699;
+  font-weight: bold;
+}
+.portlet-form-field {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-msg-status {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-msg-info {
+  color: #666699;
+  font-weight: normal;
+}
+.portlet-msg-error {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-msg-alert {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-msg-success {
+  color: #000000;
+  font-weight: normal;
+}
+.portlet-menu {
+  background-color: #ffffff;
+  border: #003399 1px solid;
+}
+.portlet-menu-item {
+  background-color: #ffffff;
+  color: #134679;
+}
+.portlet-menu-item-selected {
+  background-color: @neoflex_bg;
+  color: #134679;
+}
+.portlet-menu-item-hover {
+  background-color: #e3e9f3;
+  color: #134679;
+}
+.portlet-menu-item-hover-selected {
+  background-color: @neoflex_bg;
+  color: #134679;
+}
+.portlet-menu-cascade-item {
+}
+.portlet-menu-cascade-item-selected {
+}
+.portlet-menu-description {
+}
+.portlet-menu-caption {
+  color: #000000;
+}
+.cognos-form-footer {
+  background: #e3e9f3;
+  border-top: solid 1px #cccccc;
+}
+.cognos-form-footer-area {
+  padding-bottom: 2px;
+  padding-top: 5px;
+}
+.cognos-form-footer-button-area {
+  padding-left: 5px;
+}
+.cognos-tooltip {
+  background-color: #ffffcc;
+  border-bottom: #999999 1px solid;
+  border-left: #000000 1px solid;
+  border-right: #999999 1px solid;
+  border-top: #000000 1px solid;
+}
+.cognos-select-blur {
+  background-color: #cccccc;
+  color: #000000;
+}
+.cognos-path {
+  color: #000000;
+  font-weight: normal;
+}
+.cognos-help-link {
+  font-weight: normal;
+}
+.cognos-anchor {
+  color: @link_normal;
+}
+.cognos-section-background {
+  background-color: @neoflex_bg;
+}
+
+/* --- Colour Picker control --- */
+.colourPicker {
+  background-color: #ffffff;
+  border: #000000 1px solid;
+  display: none;
+  height: 265px;
+  overflow: auto;
+  overflow-x: hidden;
+  position: absolute;
+  width: 318px;
+  z-index: 4;
+}
+.CPCaptionBar {
+  background-color: #ddddff;
+  padding: 3px;
+  width: 100%;
+}
+.paletteContainer {
+  border-collapse: collapse;
+  padding: 5px;
+}
+.colourPreviewContainer {
+  background-color: #eeeeee;
+  border: #cccccc 1px solid;
+  height: 160px;
+  position: relative;
+  top: 1px;
+  width: 200px;
+}
+.colourPreviewPane {
+  background-color: #000000;
+  border: #000000 1px solid;
+  height: 110px;
+  margin-left: 27px;
+  margin-top: 25px;
+  position: relative;
+  width: 145px;
+}
+.CPcolourSwatchPress {
+  border: #336699 1px solid;
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+}
+.CPcolourSwatchOver {
+  border: #ffffff 1px solid;
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+}
+.CPcolourSwatch {
+  border: #cccccc 1px solid;
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+}
+.CPnamedColourSwatchPress {
+  border: #336699 1px solid;
+  cursor: pointer;
+  height: 13px;
+  vertical-align: middle;
+  width: 13px;
+}
+.CPnamedColourSwatchOver {
+  border: #ffffff 1px solid;
+  cursor: pointer;
+  height: 13px;
+  vertical-align: middle;
+  width: 13px;
+}
+.CPnamedColourSwatch {
+  border: #cccccc 1px solid;
+  cursor: pointer;
+  height: 13px;
+  vertical-align: middle;
+  width: 13px;
+}
+.namedColourPanelText {
+
+  padding-left: 5px;
+  text-decoration: underline;
+  vertical-align: middle;
+}
+.namedColourPanelOver {
+  background-color: #e3e9f3;
+  border: #99aacc 1px solid;
+  color: @link_normal;
+  cursor: pointer;
+  height: 15px;
+  padding: 1px;
+  vertical-align: middle;
+  width: 147px;
+}
+.namedColourPanel {
+  border: #ffffff 1px solid;
+  color: @link_normal;
+  height: 15px;
+  padding: 1px;
+  vertical-align: middle;
+  width: 147px;
+}
+
+/* --- Email body, links and attachments --- */
+.emailItem {
+  background-color: #ffffff;
+  border: #ffffff 2px solid;
+  margin-top: 0px;
+}
+.emailItem_active {
+  background-color: @neoflex_bg;
+  border: #191970 2px solid;
+  padding: 0px;
+}
+.emailItem_hover {
+  background-color: @neoflex_bg;
+  border: #191970 2px solid;
+  padding: 0px;
+}
+.emailBodyTableRow {
+  border: #99aacc 1px solid;
+  padding: 2px;
+}
+.emailLinksAttachmentTableRow {
+  border-bottom: #99aacc 1px solid;
+  border-left: #99aacc 1px solid;
+  border-right: #99aacc 1px solid;
+  padding: 2px;
+}
+
+/* --- Container --- */
+.detailsContainerHeader {
+  background-color: #f3f3f3;
+  float: left;
+  height: 100%;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 1px;
+  padding-top: 1px;
+  width: 100%;
+}
+.detailsContainer {
+  border: 1px solid #f3f3f3;
+  height: 100%;
+  margin-top: 1px;
+  width: 100%;
+}
+.detailsContainerContent {
+  background-color: #ffffff;
+  float: left;
+  height: 100%;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 3px;
+  padding-top: 3px;
+  width: 100%;
+}
+.groupingBorder {
+  border: #9999be 1px solid;
+  padding: 2px;
+}
+
+/* --- Styles for styling the RSS feed available from cc.xts --- */
+.rss-header {
+  background-color: #9999be;
+  border: #666699 1px solid;
+  height: 24px;
+  background-image: url(../portal/images/portal_v3_portlet_title_bar_1px.gif);
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+.rss-header-title {
+  color: #ffffff;
+
+  font-weight: bold;
+}
+.rss-title {
+  color: @link_normal;
+
+  font-weight: bold;
+  text-decoration: underline;
+}
+.rss-desc {
+  color: #000000;
+
+}
+.rss-item-title {
+  color: @link_normal;
+
+  font-weight: bold;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+.rssRightPanel {
+  background-color: @neoflex_bg;
+  border: #ffffff 2px solid;
+  padding: 5px;
+}
+.rssLeftPanel {
+  background-color: #9999be;
+  border: #ffffff 2px solid;
+  padding: 5px;
+}
+
+/* error page fault section */
+.errorPanel {
+  border: 1px solid black;
+
+  margin-right: 15px;
+  overflow: auto;
+  padding: 5px;
+  width: 100%;
+}
+.mainSearchEdit {
+
+  height: 19px;
+  width: 145px;
+}
+.sectionBackground {
+  background-color: @neoflex_bg;
+}
+.indexTreeCategorySelected {
+  background-color: #000000;
+  color: #ffffff;
+
+}
+.indexTreeCategoryHover {
+  background-color: #e3e9f3;
+  color: #000000;
+
+}
+.indexTreeCategoryHoverSelected {
+  background-color: #000000;
+  color: #ffffff;
+
+}
+.indexTreeCategoryBlur {
+  background-color: #cccccc;
+  color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
