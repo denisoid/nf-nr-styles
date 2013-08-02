@@ -33,3 +33,38 @@ textarea {
 button, .bp{
   .nf_button();
 }
+
+
+#breadcrumbContainer{
+  .breadcrumbs();
+}
+
+
+.hp span{
+  .h1() !important;
+}
+
+
+button[name^=finish]{
+  .start_button();
+}
+
+
+button[name^=finish]:hover{
+  .start_button_hover();
+}
+
+.bpd, button[disabled], button[name^=finish][disabled]{
+  .disabled_button();
+}
+
+
+.pp{
+  .remove_bg_padding();
+  width:99% !important;
+}
+
+.mainHeader3>tbody>tr>td td{
+  padding:3px 1px;
+  background: @neoflex_bg;
+}

@@ -9,12 +9,60 @@
 }
 
 
-button, button span:first-child {
-  background-image: none !important;
-  .nopadding();
+button, button span:first-child,
+.apexir_TOOLBAR_OPEN, .apexir_TOOLBAR_CLOSE{
+  .remove_bg_padding();
 }
 
 
 button{
   .nf_button();
+}
+
+
+.rc-title{
+  .h1();
+}
+
+ .fg-toolbar{
+   padding: 0 !important;
+   margin:0.5em 0 !important;
+ }
+
+
+
+
+a.required-w-help {
+  text-decoration: none;
+  color:@required_field_label_color;
+  border-bottom:1px dashed @required_field_label_color;
+  font-weight: normal;
+}
+
+a.required-w-help:hover{
+  text-decoration: none;
+  border-bottom-style: solid;
+}
+
+
+
+button[value="Запустить"]{
+  .start_button();
+
+}
+
+button[value="Запустить"]:hover{
+  .start_button_hover();
+}
+
+
+
+.formlayout td{
+  padding-bottom:5px;
+  font-weight: normal;
+}
+
+
+apexir_DATA_PANEL{
+  margin:1em 0;
 }
