@@ -724,14 +724,15 @@ td#btnAnchorIE a {
 
 }
 .mainHeader3 {
-  background-color: @neoflex_bg;
   padding-top: 5px;
 }
+
 .ccOptionsDivider {
   border-right: #000000 1px solid;
 
   width: 1px;
 }
+
 .ccOptions {
   color: @link_normal;
 
@@ -859,8 +860,6 @@ td#btnAnchorIE a {
   padding: 1px;
 }
 .tabBarContainer {
-  background-color: @neoflex_bg;
-  height: 20px;
   width: 100%;
 }
 
@@ -871,10 +870,14 @@ td#btnAnchorIE a {
 }
 
 
-.tabNormal {
-  text-decoration: underline;
-  color:@link_normal
+.tabNormal a {
+  .cool_button();
 }
+
+#selectedTab{
+  .cool_button_selected();
+}
+
 
 .tabSpacer {
   width: 2px;

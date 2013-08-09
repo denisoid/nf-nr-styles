@@ -3,9 +3,15 @@
 @import url("cognos/standart.less");
 
 
+body{
+  background: url("i/header.jpg") no-repeat top center ;
+  background-size: contain;
+
+}
+
 
 .tableText{
-  color:@gray;
+  color:@gray_text;
 
 }
 
@@ -66,5 +72,10 @@ button[name^=finish]:hover{
 
 .mainHeader3>tbody>tr>td td{
   padding:3px 1px;
-  background: @neoflex_bg;
+}
+
+
+
+table[role="presentation"]{
+  margin:0.5em 0 1em;
 }

@@ -1413,8 +1413,13 @@ a.pagination img {
   margin: 0 5px 2px 5px;
 }
 
+td.pagination{
+  padding-top:0.5em;
+}
+
 td.pagination img {
   margin: 0 3px 3px 3px;
+  vertical-align: bottom;
 }
 
 .fixed-header-report table {
@@ -1477,6 +1482,8 @@ td.pagination img {
   background: #f8f8f8 url(../images/bg-main.gif) repeat-x scroll 0 100%;
   clear: both;
   float: left;
+
+  margin:0.5em 0;
 }
 
 .apexir_WORKSHEET_DATA {
@@ -1496,7 +1503,8 @@ td.pagination img {
 
 .apexir_WORKSHEET_DATA th div {
   color:@link_normal;
-  font-weight: normal;
+  text-decoration: none;
+  font-weight: bold;
   cursor: pointer;
   padding: 4px;
 }
